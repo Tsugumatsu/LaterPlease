@@ -8,6 +8,8 @@ Ou bien vous passez une dizaine d'années à sauter de lien en liens pour absolu
 
 Arrêtez tout de suite. Votre page est équipée du plugin <i>LaterPlease</i>.
 
+<h3>Fonctionnement</h3>
+
 Avec <i>LaterPlease</i>, vous pouvez visualiser un lien en passant la souris dessus. Sans quitter la page, sans aucun clic.
 Si la page vous intêresse, vous cliquer sur <i>Later!</i>, et la page est mise dans votre liste de lecture.
 
