@@ -28,11 +28,12 @@ Indiquez à LaterPlease d'ignorer un lien en lui donnant la classe "ignorePlease
 Références CSS
 ------
 LaterPlease a déjà un style appliqué par défaut pour le rendre présentable, mais si vous voulez l'adopter vous pouvez l'habiller plus proprement.
-
-⋅⋅* La carte qui apparait au survol : `#visuLater`
-	⋅⋅⋅*le cadre de visualisation : `#bookmarkLater`
-	⋅⋅*le bouton "Later!" : `#bookmarkLater`
-	...*la petite étiquette "Enregistré !" : `#bookmarkLater span`
+<ul>
+<li>La carte qui apparait au survol :</li> `#visuLater`
+	<li>le cadre de visualisation :</li> `#bookmarkLater`
+	<li>le bouton "Later!" : `#bookmarkLater`</li>
+	<li>la petite étiquette "Enregistré !" : `#bookmarkLater span`</li>
+</ul>
 La liste de liens : `#listeLater`
 un lien : `#listeLater a`
 un bouton pour supprimer le lien : `.supprLater`
