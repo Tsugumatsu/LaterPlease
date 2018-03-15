@@ -12,11 +12,9 @@ document.addEventListener('DOMContentLoaded', function(){
 	var LiensHover = document.querySelectorAll('a:not(.ignorePlease)');	//saleté de js natif peut pas observer plusieurs balises à la fois, donc on fait des boucles débiles
 	for(var i=0; i<LiensHover.length; i++) {	//woohoo
 		LiensHover[i].addEventListener('mouseover',function(e){
+			document.getElementById('frameLater').src = e.currentTarget.href;//l'iframe pointe sur l'adresse du lien
 			document.getElementById('visuLater').style.display = 'block';//plus caché
-			document.getElementById('visuLater').style.top = e.currentTarget.offsetTop+e.currentTarget.offsetHeight+'px';//place la carte à la hauteur du lien
-			
-			console.log(e.currentTarget.offsetLeft+270+' '+document.body.clientWidth);
-			
+						
 			if(e.currentTarget.offsetLeft+270 > document.body.clientWidth){	//si position de la carte + sa largeur dépasse de la largeur d'écran...
 				document.getElementById('visuLater').style.right = '0px';//	on cale la carte à droite pour lui eviter de dépasser
 				document.getElementById('visuLater').style.left = '';
@@ -24,7 +22,17 @@ document.addEventListener('DOMContentLoaded', function(){
 			else{
 				document.getElementById('visuLater').style.left = e.currentTarget.offsetLeft+'px';// sinon on la place vers le lien
 			}
-			document.getElementById('frameLater').src = e.currentTarget.href;	//l'iframe pointe sur l'adresse du lien
+
+			if(e.currentTarget.offsetTop+e.currentTarget.offsetHeight+310 > window.innerHeight){//si la carte depasse en bas de l'ecran
+				document.getElementById('visuLater').style.position = 'fixed';// on se cale par rapport au bords de l'ecran
+				document.getElementById('visuLater').style.bottom = '30px';
+				document.getElementById('visuLater').style.top = '';
+			}
+			else{
+				document.getElementById('visuLater').style.position = 'absolute';// on se cale par rapport au lien
+				document.getElementById('visuLater').style.top = e.currentTarget.offsetTop+e.currentTarget.offsetHeight+'px';
+				document.getElementById('visuLater').style.bottom = '';
+			}	
 		});
 	}
 	
@@ -87,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function(){
 			buildListe();//on reconstruit la liste
 		});
 	}
-	
+
 	
 	
 });

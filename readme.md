@@ -55,7 +55,7 @@ Indiquez à <i>LaterPlease</i> d'ignorer un lien en lui donnant la classe <code>
 	</ul>
 <li>Un lien impossible à visualiser : <code>.ignorePlease</code></li>
 </ul>
-Tout le code CSS est visible dans <code>style (For Reference Only !).css</code>. Inutile de le télécharger, mais vous pouvez y vérifier les règle CSS par défaut.
+Tout le code CSS est visible dans <code>style (For Reference Only !).css</code>. Inutile de le télécharger, mais vous pouvez y vérifier les règles CSS par défaut.
 </details>
 <hr>
 <details>
@@ -82,7 +82,7 @@ This plugin does not have any dependencies, nor does it need JQuery, additionnal
 And because <i>LaterPlease</i> is hosted on the web, you have the option not to download it.
 
 <h2>Set-Up</h2>
-<code>laterplease.js</code> contains the plugin with a lot of comments to elp you modify and understand it.<br>
+<code>laterplease.js</code> contains the plugin with a lot of comments to help you modify and understand it.<br>
 <code>laterplease.min.js</code> is compressed, unreadable for humans but more lighweight<br><br>
 1. Download <code>laterplease.js</code>.<br>
 2. Paste <code><script src="laterplease.js"></script></code> on your page.<br><br>
