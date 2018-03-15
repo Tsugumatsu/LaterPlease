@@ -22,8 +22,7 @@ Et comme <i>LaterPlease</i> est aussi hébergé, même pas besoin de le téléch
 
 <h2>Mise en Place</h2>
 <code>laterplease.js</code> contient le code avec tous les commentaires si vous voulez le modifier ou l'étudier.<br>
-<code>laterplease.min.js</code> est compressé, illisible mais plus léger.<br>
-
+<code>laterplease.min.js</code> est compressé, illisible mais plus léger.<br><br>
 
 1. Téléchargez <code>laterplease.js</code>.<br>
 2. Collez <code><script src="laterplease.js"></script></code> sur la page.<br>
