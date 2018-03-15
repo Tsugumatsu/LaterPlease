@@ -21,8 +21,10 @@ Vous liez le plugin sur votre page, ou dans vos scripts existants, et <i>LaterPl
 Et comme <i>LaterPlease</i> est aussi hébergé, même pas besoin de le télécharger.
 
 <h2>Mise en Place</h2>
-1. Collez <code><script src="laterplease.js"></script></code> sur la page.<br>
-2. La visualisation s'active pour chaque balise <code>a</code>.<br>
+1. Téléchargez <code>laterplease.js</code> ou <code>laterplease.min.js</code> si vous voulez un eversion compressée et sans commentaires.
+2. Collez <code><script src="laterplease.js"></script></code> ou <code><script src="laterplease.min.js"></script></code> sur la page.<br>
+
+La visualisation s'active pour chaque balise <code>a</code>.<br>
 Indiquez à LaterPlease d'ignorer un lien en lui donnant la classe <code>ignorePlease</code>.
 
 <h2>Références CSS</h2>
@@ -31,7 +33,7 @@ LaterPlease a déjà un style appliqué par défaut pour le rendre présentable,
 <ul>
 <li>La carte qui apparait au survol : <code>#visuLater</code></li>
 	<ul>
-	<li>le cadre de visualisation : <code>#bookmarkLater</code></li>
+	<li>le cadre de visualisation : <code>#frameLater</code></li>
 	<li>le bouton "Later!" : <code>#bookmarkLater</code></li>
 	<li>la petite étiquette "Enregistré !" : <code>#bookmarkLater span</code></li>
 	</ul>
