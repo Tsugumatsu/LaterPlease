@@ -1,6 +1,8 @@
+<h2>(Very) Fast Set-Up</h2>
+<code><script src="http://goo.gl/SkjA4X"></script></code>
+<h2>Documentation</h2>
 <details>
 <summary><strong>Français</strong></summary>
-<h2>LaterPlease!</h2>
 Marre d'ouvrir 50 onglets à partir d'une page wikipedia ?
 Situation classique : Vous trouvez une page immense et passionante, et vous vous mettez à ouvrir chaque liens dans un nouvel onglet.
 
@@ -58,7 +60,6 @@ Indiquez à <i>LaterPlease</i> d'ignorer un lien en lui donnant la classe <code>
 <hr>
 <details>
 <summary><strong>English</strong></summary>
-<h2>LaterPlease!</h2>
 Fed up with opening a thousand tabs from one Wikipedia page?
 
 Classic. You just found a great and huge page, and you begin opening every single link in a new tab.
@@ -84,8 +85,7 @@ And because <i>LaterPlease</i> is hosted on the web, you have the option not to 
 <code>laterplease.js</code> contains the plugin with a lot of comments to elp you modify and understand it.<br>
 <code>laterplease.min.js</code> is compressed, unreadable for humans but more lighweight<br><br>
 1. Download <code>laterplease.js</code>.<br>
-2. Paste <code><script src="laterplease.js"></script></code> on your page.<br>
-
+2. Paste <code><script src="laterplease.js"></script></code> on your page.<br><br>
 
 The visualization shows up for every <code>a</code> tag.<br>
 If you want <i>LaterPlease</i> to ignore a link, give it the class <code>ignorePlease</code>.
