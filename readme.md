@@ -21,7 +21,10 @@ Vous liez le plugin sur votre page, ou dans vos scripts existants, et <i>LaterPl
 Et comme <i>LaterPlease</i> est aussi hébergé, même pas besoin de le télécharger.
 
 <h2>Mise en Place</h2>
-1. Téléchargez <code>laterplease.js</code> ou <code>laterplease.min.js</code> si vous voulez un eversion compressée et sans commentaires.
+laterplease.j contient le code avec tous les commentaires si vous voulez le modifier ou l'étudier.<br>
+laterplease.min.js est compressé, illisible mais plus léger.<br>
+
+1. Téléchargez <code>laterplease.js</code> ou <code>laterplease.min.js</code> si vous voulez un eversion compressée et sans commentaires.<br>
 2. Collez <code><script src="laterplease.js"></script></code> ou <code><script src="laterplease.min.js"></script></code> sur la page.<br>
 
 La visualisation s'active pour chaque balise <code>a</code>.<br>
