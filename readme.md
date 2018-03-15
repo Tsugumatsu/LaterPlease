@@ -30,10 +30,7 @@ LaterPlease a déjà un style appliqué par défaut pour le rendre présentable,
 	⋅⋅⋅*le cadre de visualisation : `#bookmarkLater`
 	⋅⋅*le bouton "Later!" : `#bookmarkLater`
 	...*la petite étiquette "Enregistré !" : `#bookmarkLater span`
-<li>La liste de liens : `#listeLater`</li>
-<ul>
-	<li>un lien : `#listeLater a`</li>
-	<li>un bouton pour supprimer le lien : `.supprLater`</li>
-</ul>
-<li>Un lien impossible à visualiser : `.ignorePlease`</li>
-</ul>
+La liste de liens : `#listeLater`
+un lien : `#listeLater a`
+un bouton pour supprimer le lien : `.supprLater`
+Un lien impossible à visualiser : `.ignorePlease`
