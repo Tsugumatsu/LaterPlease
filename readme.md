@@ -1,6 +1,6 @@
 <details>
 <summary><strong>Français</strong></summary>
-Marre d'ouvrir 50 onglets à partir d'une page wikipedia ?
+<h3>Marre d'ouvrir 50 onglets à partir d'une page wikipedia ?</h3>
 Situation classique : Vous trouvez une page immense et passionante, et vous vous mettez à ouvrir chaque liens dans un nouvel onglet.
 
 Vous pouvez faire une offrande à Chrome en espérant qu'il ne mange pas toute votre RAM.
@@ -52,8 +52,6 @@ LaterPlease a déjà un style appliqué par défaut pour le rendre présentable,
 
 </ul>
 </details>
-
-
 <hr>
 <details>
 <summary><strong>English</strong></summary>
