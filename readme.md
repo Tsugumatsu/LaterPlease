@@ -60,22 +60,26 @@ Indiquez à <i>LaterPlease</i> d'ignorer un lien en lui donnant la classe <code>
 <summary><strong>English</strong></summary>
 <h2>LaterPlease!</h2>
 Fed up with opening a thousand tabs from one Wikipedia page?
+
 Classic. You just found a great and huge page, and you begin opening every single link in a new tab.
+
 
 You could either donate your soul to Firefox, hoping that it won't chomp your RAM.
 Or you could spend the rest of your life switching from tab to tabs to read everything.
 
-Stop! Your web page is equipped with <i>LaterPlease!</i>.
+Stop! Your web page is equipped with <i>LaterPlease</i>.
 
 <h2>How it works</h2>
-With <i>LaterPlease!</i>, you can visualize a link by hovering over it. No page loading, no mouse clicking.
+With <i>LaterPlease</i>, you can visualize a link by hovering over it. No page loading, no mouse clicking.
+
 If some page catch you eyes, you click the <i>Later!</i> button and the page get stored in your playlist.
 
 The playlist follows you everywhere on the site and keeps the sites and links you need to read later. Forever.
 
 You get a simple and clean list of the page you'll read, without killing performance.
 
-This plugin does not have dependencies, nor does it need JQuery, additionnal CSS, or any page modification.
+This plugin does not have any dependencies, nor does it need JQuery, additionnal CSS, or any page modification.
+
 You only need to link the plugin on every page, and <i>LaterPlease!</i> does the rest.
 
 And because <i>LaterPlease</i> is hosted on the web, you have the option not to download it.
@@ -86,11 +90,13 @@ And because <i>LaterPlease</i> is hosted on the web, you have the option not to 
 1. Download <code>laterplease.js</code>.<br>
 2. Paste <code><script src="laterplease.js"></script></code> on your page.<br>
 
+
 The visualization shows up for every <code>a</code> tag.<br>
 If you want <i>LaterPlease</i> to ignore a link, give it the class <code>ignorePlease</code>.
 
 <h2>CSS References</h2>
 <i>LaterPlease</i> already comes with its own CSS rules, but you can overrule them if you need.
+
 <ul>
 <li>The card that appears on hover : <code>#visuLater</code></li>
 	<ul>
@@ -99,7 +105,6 @@ If you want <i>LaterPlease</i> to ignore a link, give it the class <code>ignoreP
 	<li>the tiny popup "Enregistré !" : <code>#bookmarkLater span</code></li>
 	</ul>
 </ul>
-
 <ul>
 <li>The list of links : <code>#listeLater</code></li>
 	<ul>
