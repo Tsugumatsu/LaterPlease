@@ -1,6 +1,7 @@
 <details>
 <summary><strong>Français</strong></summary>
-<h3>Marre d'ouvrir 50 onglets à partir d'une page wikipedia ?</h3>
+<h2>LaterPlease!</h2>
+Marre d'ouvrir 50 onglets à partir d'une page wikipedia ?
 Situation classique : Vous trouvez une page immense et passionante, et vous vous mettez à ouvrir chaque liens dans un nouvel onglet.
 
 Vous pouvez faire une offrande à Chrome en espérant qu'il ne mange pas toute votre RAM.
@@ -8,7 +9,7 @@ Ou bien vous passez une dizaine d'années à sauter de lien en liens pour absolu
 
 Arrêtez tout de suite. Votre page est équipée du plugin <i>LaterPlease</i>.
 
-<h3>Fonctionnement</h3>
+<h2>Fonctionnement</h2>
 
 Avec <i>LaterPlease</i>, vous pouvez visualiser un lien en passant la souris dessus. Sans quitter la page, sans aucun clic.
 Si la page vous intêresse, vous cliquer sur <i>Later!</i>, et la page est mise dans votre liste de lecture.
