@@ -23,7 +23,7 @@ Collez <script src="laterplease.js"></script> sur la page.
 Lavisualisation s'active pour chaque balise <a>.
 Indiquez à LaterPlease d'ignorer un lien en lui donnant la classe "ignorePlease".
 
-Références CSS
+<h2>Références CSS</h2>
 LaterPlease a déjà un style appliqué par défaut pour le rendre présentable, mais si vous voulez l'adopter vous pouvez l'habiller plus proprement.
 
 La carte qui apparait au survol : #visuLater
