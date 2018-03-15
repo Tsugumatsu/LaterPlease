@@ -1,4 +1,4 @@
-﻿Marre d'ouvrir 50 onglets à partir d'une page wikipedia ?
+Marre d'ouvrir 50 onglets à partir d'une page wikipedia ?
 Situation classique : Vous trouvez une page immense et passionante, et vous vous mettez à ouvrir chaque liens dans un nouvel onglet.
 
 Vous pouvez faire une offrande à Chrome en espérant qu'il ne mange pas toute votre RAM.
@@ -23,15 +23,13 @@ Collez <script src="laterplease.js"></script> sur la page.
 Lavisualisation s'active pour chaque balise <a>.
 Indiquez à LaterPlease d'ignorer un lien en lui donnant la classe "ignorePlease".
 
-<h2>Références CSS</h2>
+##Références CSS
 LaterPlease a déjà un style appliqué par défaut pour le rendre présentable, mais si vous voulez l'adopter vous pouvez l'habiller plus proprement.
 
-<ul>
-<li>La carte qui apparait au survol : `#visuLater`</li>
-<ul>
-	<li>le cadre de visualisation : `#bookmarkLater`</li>
-	<li>le bouton "Later!" : `#bookmarkLater`</li>
-		<li>la petite étiquette "Enregistré !" : `#bookmarkLater span`</li>
+..* La carte qui apparait au survol : `#visuLater`
+	...*le cadre de visualisation : `#bookmarkLater`
+	...*le bouton "Later!" : `#bookmarkLater`
+	...*la petite étiquette "Enregistré !" : `#bookmarkLater span`
 </ul>
 <li>La liste de liens : `#listeLater`</li>
 <ul>
