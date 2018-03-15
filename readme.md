@@ -6,7 +6,7 @@ Situation classique : Vous trouvez une page immense et passionante, et vous vous
 Vous pouvez faire une offrande à Chrome en espérant qu'il ne mange pas toute votre RAM.
 Ou bien vous passez une dizaine d'années à sauter de lien en liens pour absolument tout lire.
 
-Arrêtez tout de suite. Votre page est equipée du plugin LaterPlease.
+Arrêtez tout de suite. Votre page est équipée du plugin LaterPlease.
 
 Avec LaterPlease, vous pouvez visualiser un lien en passant la souris dessus. Sans quitter la page, sans aucun clic.
 Si la page vous intêresse, vous cliquer sur Later!, et la page est mise dans votre liste de lecture.
@@ -22,13 +22,13 @@ Et comme LaterPlease est aussi hebergé, même pas besoin de le télécharger.
 
 <h2>Mise en Place</h2>
 Collez <script src="laterplease.js"></script> sur la page.
-Lavisualisation s'active pour chaque balise <a>.
+La visualisation s'active pour chaque balise <a>.
 Indiquez à LaterPlease d'ignorer un lien en lui donnant la classe "ignorePlease".
 
 <h2>Références CSS</h2>
 LaterPlease a déjà un style appliqué par défaut pour le rendre présentable, mais si vous voulez l'adopter vous pouvez l'habiller plus proprement.
 <ul>
-<li>La carte qui apparait au survol :</li> `#visuLater`
+<li>La carte qui apparait au survol : <code>#visuLater</code></li>
 	<li>le cadre de visualisation :</li> `#bookmarkLater`
 	<li>le bouton "Later!" : `#bookmarkLater`</li>
 	<li>la petite étiquette "Enregistré !" : `#bookmarkLater span`</li>
@@ -39,6 +39,7 @@ un bouton pour supprimer le lien : `.supprLater`
 Un lien impossible à visualiser : `.ignorePlease`
 </details>
 <details>
+<hr>
 <summary><strong>English</strong></summary>
 bla bla bla
 </details>
