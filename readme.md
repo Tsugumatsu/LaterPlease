@@ -24,8 +24,9 @@ Et comme <i>LaterPlease</i> est aussi hébergé, même pas besoin de le téléch
 <code>laterplease.js</code> contient le code avec tous les commentaires si vous voulez le modifier ou l'étudier.<br>
 <code>laterplease.min.js</code> est compressé, illisible mais plus léger.<br>
 
-1. Téléchargez <code>laterplease.js</code> ou <code>laterplease.min.js</code>.<br>
-2. Collez <code><script src="laterplease.js"></script></code> ou <code><script src="laterplease.min.js"></script></code> sur la page.<br>
+
+1. Téléchargez <code>laterplease.js</code>.<br>
+2. Collez <code><script src="laterplease.js"></script></code> sur la page.<br>
 
 La visualisation s'active pour chaque balise <code>a</code>.<br>
 Indiquez à LaterPlease d'ignorer un lien en lui donnant la classe <code>ignorePlease</code>.
