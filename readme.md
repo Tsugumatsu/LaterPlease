@@ -21,9 +21,9 @@ Vous liez le plugin sur votre page, ou dans vos scripts existants, et LaterPleas
 Et comme LaterPlease est aussi hebergé, même pas besoin de le télécharger.
 
 <h2>Mise en Place</h2>
-Collez <script src="laterplease.js"></script> sur la page.
-La visualisation s'active pour chaque balise <a>.
-Indiquez à LaterPlease d'ignorer un lien en lui donnant la classe "ignorePlease".
+1. Collez <script src="laterplease.js"></script> sur la page.<br>
+2. La visualisation s'active pour chaque balise <code>a</code>.<br>
+Indiquez à LaterPlease d'ignorer un lien en lui donnant la classe <code>ignorePlease</code>.
 
 <h2>Références CSS</h2>
 LaterPlease a déjà un style appliqué par défaut pour le rendre présentable, mais si vous voulez l'adopter vous pouvez l'habiller plus proprement.
