@@ -1,5 +1,5 @@
 <h2>(Very) Fast Set-Up</h2>
-<code><script src="http://goo.gl/SkjA4X"></script></code>
+<code><script src="https://rawgit.com/Tsugumatsu/LaterPlease/master/laterplease.min.js"></script></code>
 <h2>Documentation</h2>
 <details>
 <summary><strong>Français</strong></summary>
@@ -54,8 +54,8 @@ Indiquez à <i>LaterPlease</i> d'ignorer un lien en lui donnant la classe <code>
 	<li>un bouton pour supprimer le lien : <code>.supprLater</code></li>
 	</ul>
 <li>Un lien impossible à visualiser : <code>.ignorePlease</code></li>
-
 </ul>
+Tout le code CSS est visible dans <code>style (For Reference Only !).css</code>. Inutile de le télécharger, mais vous pouvez y vérifier les règle CSS par défaut.
 </details>
 <hr>
 <details>
@@ -109,4 +109,5 @@ If you want <i>LaterPlease</i> to ignore a link, give it the class <code>ignoreP
 	</ul>
 <li>A link that needs to be ignored : <code>.ignorePlease</code></li>
 </ul>
+The whole styling is in <code>style (For Reference Only !).css</code>. You don't need to download it but you can use it to help to check the default rules.
 </details>
