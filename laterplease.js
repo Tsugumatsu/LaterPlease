@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
 	//	on place le style dans le <head>, mais avant le style de l'utilisateur
-	document.head.insertAdjacentHTML('afterbegin','<style>#visuLater{display:none;font-family:sans-serif;position:absolute;text-align:center;background:#fffe;padding:10pt;width:270px;max-height:255px;box-shadow:0 5pt 15pt #0002;border-radius:3pt;}#visuLater:hover{display:block;}#frameLater{width:270px;height:230px;border:1pt solid #bbb;border-radius:3pt;}#frameLater html,#frameLater body{width:200pt;overflow:hidden}#bookmarkLater{cursor:pointer;height:55px;width:55px;color:#222;background:linear-gradient(#0aff8e,#00edff);border-radius:360px;display:block;line-height:55px;margin:0 auto;transition-duration:0.2s;box-shadow:0 5px 10px #0002}#bookmarkLater:active{box-shadow:2pt -2pt 10pt #0004;background:linear-gradient(#f00,#ffc600);width:65px;height:50px;line-height:50px;margin-top:2px;transition-duration:0s;}#bookmarkLater span{cursor:default;opacity:0;background:linear-gradient(90deg,#59b1f2,#b6fff2);position:absolute;padding:0 10px;height:20px;line-height:20px;border-radius:3px;color:#444;font-weight:100;font-size:13px;transition-delay:1s;transition-duration:1s;}#bookmarkLater:active span{opacity:1;transition-delay:0s;transition-duration:0s;}#listeLater{position:fixed;box-shadow:0 0 10px #0002;left:0;bottom:0;padding:10px;background:#fffe;text-align:right;}#listeLater a{line-height:30px;}#listeLater .supprLater{color:#333;border-radius:360px;display:inline-block;width:20px;height:20px;text-align:center;line-height:20px;font-size:13px;cursor:pointer;}#listeLater .supprLater:hover{background:#ff8181;color:#fff;}#listeLater .supprLater:active{background:#bbb;}</style>');
+	document.head.insertAdjacentHTML('afterbegin','<style>#visuLater{display:none;font-family:sans-serif;position:fixed;text-align:center;background:#fffe;padding:10pt;width:270px;max-height:255px;box-shadow:0 5pt 15pt #0002;border-radius:3pt;}#visuLater:hover{display:block;}#frameLater{width:270px;height:230px;border:1pt solid #bbb;border-radius:3pt;}#frameLater html,#frameLater body{width:200pt;overflow:hidden}#bookmarkLater{cursor:pointer;height:55px;width:55px;color:#222;background:linear-gradient(#0aff8e,#00edff);border-radius:360px;display:block;line-height:55px;margin:0 auto;transition-duration:0.2s;box-shadow:0 5px 10px #0002}#bookmarkLater:active{box-shadow:2pt -2pt 10pt #0004;background:linear-gradient(#f00,#ffc600);width:65px;height:50px;line-height:50px;margin-top:2px;transition-duration:0s;}#bookmarkLater span{cursor:default;opacity:0;background:linear-gradient(90deg,#59b1f2,#b6fff2);position:absolute;padding:0 10px;height:20px;line-height:20px;border-radius:3px;color:#444;font-weight:100;font-size:13px;transition-delay:1s;transition-duration:1s;}#bookmarkLater:active span{opacity:1;transition-delay:0s;transition-duration:0s;}#listeLater{position:fixed;box-shadow:0 0 10px #0002;left:0;bottom:0;padding:10px;background:#fffe;text-align:right;}#listeLater a{line-height:30px;}#listeLater .supprLater{color:#333;border-radius:360px;display:inline-block;width:20px;height:20px;text-align:center;line-height:20px;font-size:13px;cursor:pointer;}#listeLater .supprLater:hover{background:#ff8181;color:#fff;}#listeLater .supprLater:active{background:#bbb;}</style>');
 	//	la liste de lecture
 	document.body.insertAdjacentHTML('beforeend','<div id="listeLater"></div>');
 	//	la carte, cachée pour l'instant
@@ -12,11 +12,9 @@ document.addEventListener('DOMContentLoaded', function(){
 	var LiensHover = document.querySelectorAll('a:not(.ignorePlease)');	//saleté de js natif peut pas observer plusieurs balises à la fois, donc on fait des boucles débiles
 	for(var i=0; i<LiensHover.length; i++) {	//woohoo
 		LiensHover[i].addEventListener('mouseover',function(e){
+			document.getElementById('frameLater').src = e.currentTarget.href;//l'iframe pointe sur l'adresse du lien
 			document.getElementById('visuLater').style.display = 'block';//plus caché
-			document.getElementById('visuLater').style.top = e.currentTarget.offsetTop+e.currentTarget.offsetHeight+'px';//place la carte à la hauteur du lien
-			
-			console.log(e.currentTarget.offsetLeft+270+' '+document.body.clientWidth);
-			
+						
 			if(e.currentTarget.offsetLeft+270 > document.body.clientWidth){	//si position de la carte + sa largeur dépasse de la largeur d'écran...
 				document.getElementById('visuLater').style.right = '0px';//	on cale la carte à droite pour lui eviter de dépasser
 				document.getElementById('visuLater').style.left = '';
@@ -24,7 +22,17 @@ document.addEventListener('DOMContentLoaded', function(){
 			else{
 				document.getElementById('visuLater').style.left = e.currentTarget.offsetLeft+'px';// sinon on la place vers le lien
 			}
-			document.getElementById('frameLater').src = e.currentTarget.href;	//l'iframe pointe sur l'adresse du lien
+
+			if(e.currentTarget.offsetTop+e.currentTarget.offsetHeight+310 > window.innerHeight){//si la carte depasse en bas de l'ecran
+				document.getElementById('visuLater').style.position = 'fixed';// on se cale par rapport au bords de l'ecran
+				document.getElementById('visuLater').style.bottom = '30px';
+				document.getElementById('visuLater').style.top = '';
+			}
+			else{
+				document.getElementById('visuLater').style.position = 'absolute';// on se cale par rapport au lien
+				document.getElementById('visuLater').style.top = e.currentTarget.offsetTop+e.currentTarget.offsetHeight+'px';
+				document.getElementById('visuLater').style.bottom = '';
+			}	
 		});
 	}
 	
@@ -87,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function(){
 			buildListe();//on reconstruit la liste
 		});
 	}
-	
+
 	
 	
 });
