@@ -1,5 +1,5 @@
 <details>
-<summary><strong>Français<strong></summary>
+<summary><strong>Français</strong></summary>
 Marre d'ouvrir 50 onglets à partir d'une page wikipedia ?
 Situation classique : Vous trouvez une page immense et passionante, et vous vous mettez à ouvrir chaque liens dans un nouvel onglet.
 
@@ -39,6 +39,6 @@ un bouton pour supprimer le lien : `.supprLater`
 Un lien impossible à visualiser : `.ignorePlease`
 </details>
 <details>
-<summary><strong>English<strong></summary>
+<summary><strong>English</strong></summary>
 bla bla bla
 </details>
