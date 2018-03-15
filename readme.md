@@ -70,17 +70,13 @@ Or you could spend the rest of your life switching from tab to tabs to read ever
 Stop! Your web page is equipped with <i>LaterPlease</i>.
 
 <h2>How it works</h2>
-With <i>LaterPlease</i>, you can visualize a link by hovering over it. No page loading, no mouse clicking.
-
-If some page catch you eyes, you click the <i>Later!</i> button and the page get stored in your playlist.
+With <i>LaterPlease</i>, you can visualize a link by hovering over it. No page loading, no mouse clicking. If some page catches you eye, click the <i>Later!</i> button and the page get stored in your playlist.
 
 The playlist follows you everywhere on the site and keeps the sites and links you need to read later. Forever.
 
 You get a simple and clean list of the page you'll read, without killing performance.
 
-This plugin does not have any dependencies, nor does it need JQuery, additionnal CSS, or any page modification.
-
-You only need to link the plugin on every page, and <i>LaterPlease!</i> does the rest.
+This plugin does not have any dependencies, nor does it need JQuery, additionnal CSS, or any page modification. You only need to link the plugin on every page, and <i>LaterPlease!</i> does the rest.
 
 And because <i>LaterPlease</i> is hosted on the web, you have the option not to download it.
 
