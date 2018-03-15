@@ -1,5 +1,5 @@
 <details>
-<summary>French</summary>
+<summary><h2>French</h2></summary>
 Marre d'ouvrir 50 onglets à partir d'une page wikipedia ?
 Situation classique : Vous trouvez une page immense et passionante, et vous vous mettez à ouvrir chaque liens dans un nouvel onglet.
 
@@ -20,13 +20,12 @@ Vous liez le plugin sur votre page, ou dans vos scripts existants, et LaterPleas
 
 Et comme LaterPlease est aussi hebergé, même pas besoin de le télécharger.
 
-Mise en Place
+<h2>Mise en Place</h2>
 Collez <script src="laterplease.js"></script> sur la page.
 Lavisualisation s'active pour chaque balise <a>.
 Indiquez à LaterPlease d'ignorer un lien en lui donnant la classe "ignorePlease".
 
-Références CSS
-------
+<h2>Références CSS</h2>
 LaterPlease a déjà un style appliqué par défaut pour le rendre présentable, mais si vous voulez l'adopter vous pouvez l'habiller plus proprement.
 <ul>
 <li>La carte qui apparait au survol :</li> `#visuLater`
@@ -40,6 +39,6 @@ un bouton pour supprimer le lien : `.supprLater`
 Un lien impossible à visualiser : `.ignorePlease`
 </details>
 <details>
-<summary>English</summary>
+<summary><h2>English</h2></summary>
 bla bla bla
 </details>
