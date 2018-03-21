@@ -26,10 +26,10 @@ Vous liez le plugin sur votre page, ou dans vos scripts existants, et <i>LaterPl
 Et comme <i>LaterPlease</i> est aussi hébergé, même pas besoin de le télécharger.
 
 <h2>Mise en Place</h2>
-<code>laterplease.js</code> contient le code avec tous les commentaires si vous voulez le modifier ou l'étudier.<br>
-<code>laterplease.min.js</code> est compressé, illisible pour les humains mais plus léger.<br><br>
+<b>laterplease.js</b> contient le code avec tous les commentaires si vous voulez le modifier ou l'étudier.<br>
+<b>laterplease.min.js</b> est compressé, illisible pour les humains mais plus léger.<br><br>
 
-1. Téléchargez <code>laterplease.js</code>.<br>
+1. Téléchargez <b>laterplease.js</b>.<br>
 2. Collez <code><script src="laterplease.js"></script></code> sur la page.<br>
 
 La visualisation s'active pour chaque balise <code>a</code>.<br>
@@ -63,7 +63,7 @@ Indiquez à <i>LaterPlease</i> d'ignorer un lien en lui donnant la classe <code>
 	<li>Un lien impossible à visualiser : <code>.ignorePlease</code></li>
 </ul>
 
-Tout le code CSS est visible dans <code>style (For Reference Only !).css</code>. Inutile de le télécharger, mais vous pouvez y vérifier les règles CSS par défaut.
+Tout le code CSS est visible dans <b>style (For Reference Only !).css</b>. Inutile de le télécharger, mais vous pouvez y vérifier les règles CSS par défaut.
 </details>
 <hr>
 <details>
@@ -83,16 +83,16 @@ With <i>LaterPlease</i>, you can visualize a link by hovering over it. No page l
 
 The playlist follows you everywhere on the site and keeps the sites and links you need to read later. Forever.
 
-You get a simple and clean list of the page you'll read, without killing performance.
+You get a simple and clean list of the pages you'll read, without killing performance.
 
 This plugin does not have any dependencies, nor does it need JQuery, additionnal CSS, or any page modification. You only need to link the plugin on every page, and <i>LaterPlease!</i> does the rest.
 
 And because <i>LaterPlease</i> is hosted on the web, you have the option not to download it.
 
 <h2>Set-Up</h2>
-<code>laterplease.js</code> contains the plugin with a lot of comments to help you modify and understand it.<br>
-<code>laterplease.min.js</code> is compressed, unreadable for humans but more lighweight<br><br>
-1. Download <code>laterplease.js</code>.<br>
+<b>laterplease.js</b> contains the plugin with a lot of comments to help you modify and understand it.<br>
+<b>laterplease.min.js</b> is compressed, unreadable for humans but more lighweight<br><br>
+1. Download <b>laterplease.js</b>.<br>
 2. Paste <code><script src="laterplease.js"></script></code> on your page.<br><br>
 
 The visualization shows up for every <code>a</code> tag.<br>
@@ -125,5 +125,5 @@ If you want <i>LaterPlease</i> to ignore a link, give it the class <code>ignoreP
 <ul>
 	<li>A link that needs to be ignored : <code>.ignorePlease</code></li>
 </ul>
-The whole styling is in <code>style (For Reference Only !).css</code>. You don't need to download it but you can use it to help to check the default rules.
+The whole styling is in <b>style (For Reference Only !).css</b>. You don't need to download it but you can use it to help to check the default rules.
 </details>
