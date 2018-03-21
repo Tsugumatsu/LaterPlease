@@ -120,7 +120,6 @@ document.addEventListener('DOMContentLoaded', function(){
 	//deplacement de la fenêtre
 	document.body.addEventListener('mousemove',function(e){
 		if(deplacement == true){
-			console.log('apres : '+e.pageX+' '+e.pageY);
 			//on déplace la fenêtre en fonction de la position initiale du curseur sur le cadre, avec "offset..."
 			document.getElementById('windowLater').style.left = e.pageX-offsetX+'px';
 			document.getElementById('windowLater').style.top = e.pageY-offsetY+'px';
