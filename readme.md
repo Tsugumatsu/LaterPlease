@@ -33,6 +33,7 @@ Et comme <i>LaterPlease</i> est aussi hébergé, même pas besoin de le téléch
 2. Collez <code><script src="laterplease.js"></script></code> sur la page.<br>
 
 La visualisation s'active pour chaque balise <code>a</code>.<br>
+<h3>Ignorer un lien</h3>
 Indiquez à <i>LaterPlease</i> d'ignorer un lien en lui donnant la classe <code>ignorePlease</code>.
 
 <h2>Références CSS</h2>
@@ -96,6 +97,7 @@ And because <i>LaterPlease</i> is hosted on the web, you have the option not to 
 2. Paste <code><script src="laterplease.js"></script></code> on your page.<br><br>
 
 The visualization shows up for every <code>a</code> tag.<br>
+<h3>Ignore Links</h3>
 If you want <i>LaterPlease</i> to ignore a link, give it the class <code>ignorePlease</code>.
 
 <h2>CSS References</h2>
