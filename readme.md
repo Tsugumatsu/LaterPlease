@@ -48,13 +48,18 @@ Indiquez à <i>LaterPlease</i> d'ignorer un lien en lui donnant la classe <code>
 </ul>
 
 <ul>
-<li>La liste de liens : <code>#listeLater</code></li>
+	<li>La fenêtre flottante : <code>#windowLater</code></li>
 	<ul>
-	<li>un lien : <code>#listeLater a</code></li>
-	<li>un bouton pour supprimer le lien : <code>.supprLater</code></li>
+		<li>La bordure de la fenêtre : <code>#borderLater</code></li>
+		<li>La liste de liens : <code>#cadreLater</code></li>
+		<ul>
+			<li>un lien : <code>#listeLater a</code></li>
+			<li>un bouton pour supprimer le lien : <code>.supprLater</code></li>
+		</ul>
 	</ul>
-<li>Un lien impossible à visualiser : <code>.ignorePlease</code></li>
+	<li>Un lien impossible à visualiser : <code>.ignorePlease</code></li>
 </ul>
+
 Tout le code CSS est visible dans <code>style (For Reference Only !).css</code>. Inutile de le télécharger, mais vous pouvez y vérifier les règles CSS par défaut.
 </details>
 <hr>
@@ -94,20 +99,24 @@ If you want <i>LaterPlease</i> to ignore a link, give it the class <code>ignoreP
 <i>LaterPlease</i> already comes with its own CSS rules, but you can overrule them if you need.
 
 <ul>
-<li>The card that appears on hover : <code>#visuLater</code></li>
+	<li>The card that appears on hover : <code>#visuLater</code></li>
 	<ul>
-	<li>the visualization frame : <code>#frameLater</code></li>
-	<li>the "Later!" button : <code>#bookmarkLater</code></li>
-	<li>the tiny popup "Enregistré !" : <code>#bookmarkLater span</code></li>
+		<li>the visualization frame : <code>#frameLater</code></li>
+		<li>the "Later!" button : <code>#bookmarkLater</code></li>
+		<li>the tiny popup "Enregistré !" : <code>#bookmarkLater span</code></li>
 	</ul>
 </ul>
 <ul>
-<li>The list of links : <code>#listeLater</code></li>
-	<ul>
-	<li>a link : <code>#listeLater a</code></li>
-	<li>a button to delete a link : <code>.supprLater</code></li>
-	</ul>
-<li>A link that needs to be ignored : <code>.ignorePlease</code></li>
+	<li>The floating window : <code>#windowLater</code></li>
+		<ul>
+			<li>the window's handle : <code>#borderLater</code></li>
+			<li>the list of links : <code>#cadreLater</code></li>
+			<ul>
+				<li>a link : <code>#listeLater a</code></li>
+				<li>a button to delete a link : <code>.supprLater</code></li>
+			</ul>
+		</ul>
+	<li>A link that needs to be ignored : <code>.ignorePlease</code></li>
 </ul>
 The whole styling is in <code>style (For Reference Only !).css</code>. You don't need to download it but you can use it to help to check the default rules.
 </details>
