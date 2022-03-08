@@ -1,5 +1,5 @@
 <h2>(Very) Fast Set-Up</h2>
-<code><script src="https://rawgit.com/clemzarch/LaterPlease/master/laterplease.min.js"></script></code>
+<code><script src="https://raw.githubusercontent.com/clemzarch/LaterPlease/master/laterplease.min.js"></script></code>
 <h2>Documentation</h2>
 <details>
 <summary><strong>Français</strong></summary>
