@@ -1,3 +1,5 @@
+Context: it was a small student project aimed at creating a JS plugin
+
 <h2>(Very) Fast Set-Up</h2>
 <code><script src="https://raw.githubusercontent.com/clemzarch/LaterPlease/master/laterplease.min.js"></script></code>
 <h2>Documentation</h2>
